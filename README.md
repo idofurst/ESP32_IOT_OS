@@ -190,5 +190,4 @@ Core 1 (Application CPU):
 
 ## רישיון
 
-cense: CC-BY-4.0, Shealtiel Yaish---
-
+License: CC-BY-NC 4.0, Shealtiel Yaish
