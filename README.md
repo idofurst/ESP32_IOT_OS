@@ -33,18 +33,15 @@ ALTERA FPGA  <--Serial-->  ESP32  <--HTTPS-->  Firebase  <--API-->  App
 
 
 ### דרישות חומרה
-<div dir="rtl">
-
-- ESP32 Dev Module (כל גרסה עם Dual-Core)
+&#x202b;- ESP32 Dev Module (כל גרסה עם Dual-Core)
 - תצוגת OLED SH1106 128x64 (אופציונלי)
-- ALTERA FPGA עם חיבור Serial/UART
+&#x202b;- ALTERA FPGA עם חיבור Serial/UART
 
 ### דרישות תוכנה
-- Arduino IDE 2.0+
+&#x202b;- Arduino IDE 2.0+
 - חשבון Firebase
 
----
-</div>
+&#x202b;---
 ## התקנת ספריות
 
 ### ספריות שיש להתקין ידנית (Library Manager)
