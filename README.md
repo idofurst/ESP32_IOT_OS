@@ -190,4 +190,4 @@ Core 1 (Application CPU):
 
 ## רישיון
 
-License: CC-BY-NC 4.0, Shealtiel Yaish
+ESP IOT OS © 2025 by Shealtiel Yaish is licensed under CC BY-NC 4.0
