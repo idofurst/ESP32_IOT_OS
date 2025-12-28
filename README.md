@@ -1,3 +1,5 @@
+<div dir="rtl">
+
 # ESP32 IoT Bridge
 
 **גשר IoT לחיבור ALTERA FPGA לענן Firebase**
@@ -191,3 +193,4 @@ Core 1 (Application CPU):
 ## רישיון
 
 ESP IOT OS © 2025 by Shealtiel Yaish is licensed under CC BY-NC 4.0
+</div>
