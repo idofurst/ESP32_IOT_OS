@@ -29,12 +29,53 @@ ALTERA FPGA  <--Serial-->  ESP32  <--HTTPS-->  Firebase  <--API-->  App
 
 ## התחלה מהירה
 
-### דרישות
-- ESP32 Dev Module
+### דרישות חומרה
+- ESP32 Dev Module (כל גרסה עם Dual-Core)
+- תצוגת OLED SH1106 128x64 (אופציונלי)
+- ALTERA FPGA עם חיבור Serial/UART
+
+### דרישות תוכנה
 - Arduino IDE 2.0+
 - חשבון Firebase
 
-### התקנה
+---
+
+## התקנת ספריות
+
+### ספריות שיש להתקין ידנית (Library Manager)
+
+ב-Arduino IDE לך ל: **Sketch → Include Library → Manage Libraries**
+
+| ספרייה | מפתח | גרסה | תיאור |
+|--------|-------|-------|--------|
+| **ArduinoJson** | Benoit Blanchon | 6.x ומעלה | עיבוד JSON לתקשורת עם Firebase |
+| **Adafruit SH110X** | Adafruit | 2.x ומעלה | תמיכה בתצוגת OLED |
+| **Adafruit GFX Library** | Adafruit | 1.x ומעלה | ספריית גרפיקה (נדרשת עבור SH110X) |
+
+### התקנה שלב אחר שלב:
+
+1. פתח Arduino IDE
+2. לך ל-**Sketch → Include Library → Manage Libraries**
+3. חפש **"ArduinoJson"** → התקן את הגרסה האחרונה (6.x)
+4. חפש **"Adafruit SH110X"** → התקן
+5. כשתישאל להתקין dependencies - לחץ **"Install All"**
+
+### ספריות מובנות (לא צריך להתקין)
+
+הספריות הבאות מגיעות עם חבילת ESP32 ואין צורך להתקין אותן:
+
+| ספרייה | תיאור |
+|--------|--------|
+| `WiFi.h` | חיבור לרשתות WiFi |
+| `WebServer.h` | שרת HTTP לממשק הגדרות |
+| `Preferences.h` | שמירת הגדרות ב-Flash |
+| `HTTPClient.h` | שליחת בקשות HTTP ל-Firebase |
+| `WiFiClientSecure.h` | תקשורת HTTPS מאובטחת |
+| `Wire.h` | תקשורת I2C לתצוגת OLED |
+
+---
+
+## התקנת ESP32 ב-Arduino IDE
 
 1. **הוסף ESP32 ל-Arduino IDE:**
    - File → Preferences
