@@ -1,6 +1,7 @@
+
 <div dir="rtl">
 
-# ESP32 IoT Bridge
+# ESP32 IoT OS
 
 **גשר IoT לחיבור ALTERA FPGA לענן Firebase**
 
@@ -23,7 +24,7 @@ ALTERA FPGA  <--Serial-->  ESP32  <--HTTPS-->  Firebase  <--API-->  App
 | **ניהול WiFi חכם** | תמיכה בעד 3 רשתות WiFi עם מעבר אוטומטי |
 | **מצב Access Point** | יצירת נקודת גישה כשאין רשת זמינה |
 | **ממשק עברי** | ממשק Web מלא בעברית עם תמיכה ב-RTL |
-| **עיבוד Dual-Core** | Core 0 ל-Serial, Core 1 ל-Firebase |
+| **עיבוד Dual-Core** |Core 0  ל-Core 1,  Serial  ל-Firebase |
 | **תקשורת דו-כיוונית** | ALTERA→Firebase ו-Firebase→ALTERA |
 | **שמירת הגדרות** | כל ההגדרות נשמרות ב-Flash |
 
@@ -92,27 +93,26 @@ ALTERA FPGA  <--Serial-->  ESP32  <--HTTPS-->  Firebase  <--API-->  App
 ---
 
 ## התקנת ESP32 ב-Arduino IDE
+&#x202b;1. **הוסף ESP32 ל-Arduino IDE:**</br>
+    
+   הוסף ל - Additional Board URLs :Preferences ← File   
+  ```
+                                        https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+  ```
 
-1. **הוסף ESP32 ל-Arduino IDE:**
-   - File → Preferences
-   - הוסף ל-Additional Board URLs:
-   ```
-   https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
-   ```
-
-2. **התקן את הבורד:**
-   - Tools → Board → Boards Manager
+&#x202b;2. **התקן את הבורד:**
+   &#x202b;- Tools → Board → Boards Manager
    - חפש "ESP32" והתקן
 
-3. **העלה את הקוד:**
+&#x202b;3. **העלה את הקוד:**
    - פתח את `ESP32_IoT_Bridge.ino`
    - בחר בורד: ESP32 Dev Module
    - לחץ Upload
 
-4. **הגדרות ראשוניות:**
-   - התחבר לרשת WiFi: `ESP32_Config`
+&#x202b;4. **הגדרות ראשוניות:**
+   - התחבר לרשת WiFi: `ESP32_IOT_OS`
    - גש לכתובת: `192.168.4.1`
-   - הזן פרטי WiFi ו-Firebase
+   - הזן פרטי WiFi ו-Firebase (עד 3 רשתות שונות)
 
 ---
 
