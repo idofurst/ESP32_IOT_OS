@@ -29,7 +29,7 @@ ALTERA FPGA  <--Serial-->  ESP32  <--HTTPS-->  Firebase  <--API-->  App
 
 ---
 
-## התחלה מהירה
+### התחלה מהירה
 
 
 ### דרישות חומרה
