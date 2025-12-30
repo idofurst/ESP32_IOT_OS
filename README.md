@@ -37,16 +37,23 @@ ALTERA FPGA  <--Serial-->  ESP32  <--HTTPS-->  Firebase  <--API-->  App
 
 <div dir="rtl">
 <ul>
-  <li>ESP32 Dev Module (כל גרסה עם Dual-Core)</li>
-  <li>תצוגת OLED SH1106 128x64 (אופציונלי)</li>
-  <li>ALTERA FPGA עם חיבור Serial / UART</li>
+  <li dir="rtl">ESP32 Dev Module (כל גרסה עם Dual-Core)</li>
+  <li dir="rtl">תצוגת OLED SH1106 128x64 (אופציונלי)</li>
+  <li dir="rtl">ALTERA FPGA עם חיבור Serial / UART</li>
 </ul>
 </div>
 
 
+
 ### דרישות תוכנה
-- &#x202b;Arduino IDE 2.0+
-- חשבון Firebase
+
+<div dir="rtl">
+<ul>
+  <li dir="rtl">Arduino IDE 2.0+</li>
+  <li dir="rtl">חשבון Firebase</li>
+</ul>
+</div>
+
 
 ---
 ## התקנת ספריות
