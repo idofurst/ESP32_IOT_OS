@@ -97,7 +97,7 @@ ALTERA FPGA  <--Serial-->  ESP32  <--HTTPS-->  Firebase  <--API-->  App
     
    הוסף ל - Additional Board URLs :Preferences ← File   
   ```
-                                        https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+                                      https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
   ```
 
 &#x202b;2. **התקן את הבורד:**
