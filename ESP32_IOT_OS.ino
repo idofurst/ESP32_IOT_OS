@@ -1,5 +1,5 @@
 /*
- * ESP32 IoT Bridge - ALTERA to Firebase
+ * ESP32 IoT OS - ALTERA to Firebase
  *
  * ספריות תומכות (יש להתקין דרך ARDUINO IDE):
  * - ArduinoJson by Benoit Blanchon (v6.x)
