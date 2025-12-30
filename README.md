@@ -24,7 +24,7 @@ ALTERA FPGA  <--Serial-->  ESP32  <--HTTPS-->  Firebase  <--API-->  App
 | **ניהול WiFi חכם** | תמיכה בעד 3 רשתות WiFi עם מעבר אוטומטי |
 | **מצב Access Point** | יצירת נקודת גישה כשאין רשת זמינה |
 | **ממשק עברי** | ממשק Web מלא בעברית עם תמיכה ב-RTL |
-| **עיבוד Dual-Core** |Core 0  ל-Core 1,  Serial  ל-Firebase |
+| **עיבוד Dual-Core** |Core 0  ל-Core 1,  Serial2  ל-Firebase |
 | **תקשורת דו-כיוונית** | ALTERA→Firebase ו-Firebase→ALTERA |
 | **שמירת הגדרות** | כל ההגדרות נשמרות ב-Flash |
 
