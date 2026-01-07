@@ -207,7 +207,7 @@ Core 1 (Application CPU):
 
 ## חיבור ESP-cam לRealtime Database
 בכדי לחבר את הESP-cam למסד נתונים בfirebase תחילה נוריד את הספריות הבאות לArduinoIDE: <br>
-את הספרייה Firebase-ESP32 על-ידי mobizt
+את הספרייה Firebase-ESP32 על-ידי mobizt <br>
 ואת הספרייה ArduinoJson על-ידי Benoit Blanchon (אם חיברתם את הלוח פיתוח אז זה מותקן לכם)
 
 ## פתיחת קובץ
@@ -219,7 +219,7 @@ Core 1 (Application CPU):
 
 
 ## קונפיגורציה של המצלמה
-תשנו את החלקים הבאים לפי הפרוייקט שלכם:
+תשנו את החלקים הבאים לפי הפרוייקט שלכם: <br>
 כתובת מסד נתונים ואת הנקודת גישה(WiFi) **מומלץ לשים נקודה חמה**
 ```
 #define DATABASE_URL "robotic-laser-tank-default-rtdb.firebaseio.com" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
