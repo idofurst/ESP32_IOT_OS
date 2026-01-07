@@ -206,7 +206,7 @@ Core 1 (Application CPU):
 
 
 ## חיבור ESP-cam לRealtime Database
-בכדי לחבר את הESP-cam למסד נתונים בfirebase תחילה נוריד את הספריות הבאות לArduinoIDE:
+בכדי לחבר את הESP-cam למסד נתונים בfirebase תחילה נוריד את הספריות הבאות לArduinoIDE: <br>
 את הספרייה Firebase-ESP32 על-ידי mobizt
 ואת הספרייה ArduinoJson על-ידי Benoit Blanchon (אם חיברתם את הלוח פיתוח אז זה מותקן לכם)
 
