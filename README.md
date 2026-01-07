@@ -202,6 +202,17 @@ Core 1 (Application CPU):
 
 ---
 
+
+## חיבור ESP-cam לRealtime Database
+בכדי לחבר את הESP-cam למסד נתונים בfirebase תחילה נוריד את הספריות הבאות לArduinoIDE:
+את הספרייה Firebase-ESP32 על-ידי mobizt
+ואת הספרייה ArduinoJson על-ידי Benoit Blanchon (אם חיברתם את הלוח פיתוח אז זה מותקן לכם)
+
+
+```
+   &#x202b;- files → examples → ESP32 → Camera → CameraWebServer
+```
+
 ## רישיון
 
 ESP IOT OS © 2025 by Shealtiel Yaish is licensed under CC BY-NC 4.0
