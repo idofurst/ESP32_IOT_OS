@@ -221,6 +221,7 @@ Core 1 (Application CPU):
 ## קונפיגורציה של המצלמה
 תשנו את החלקים הבאים לפי הפרוייקט שלכם: <br>
 כתובת מסד נתונים ואת הנקודת גישה(WiFi) **מומלץ לשים נקודה חמה**
+<div dir="ltr">
 ```
 #define DATABASE_URL "robotic-laser-tank-default-rtdb.firebaseio.com" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
 ...
@@ -228,6 +229,7 @@ Core 1 (Application CPU):
 const char *ssid = "oplus_co_apofwi";
 const char *password = "hkum7108";
 ```
+</div>
 
 
 ## רישיון
