@@ -1,7 +1,9 @@
 
 <div dir="rtl">
+<a href="https://github.com/idofurst/ESP32_IOT_OS/blob/main/README.md#%D7%97%D7%99%D7%91%D7%95%D7%A8-esp-cam-%D7%9Crealtime-database">חיבור ESP-cam</a>
 
-# ESP32 IoT OS
+  
+  # ESP32 IoT OS
 
 **גשר IoT לחיבור ALTERA FPGA לענן Firebase**
 
@@ -201,6 +203,40 @@ Core 1 (Application CPU):
 | `docs/index.html` | דף מידע  |
 
 ---
+
+
+## חיבור ESP-cam לRealtime Database
+בכדי לחבר את הESP-cam למסד נתונים בfirebase תחילה נוריד את הספריות הבאות לArduinoIDE: <br>
+את הספרייה Firebase-ESP32 על-ידי mobizt <br>
+ואת הספרייה ArduinoJson על-ידי Benoit Blanchon (אם חיברתם את הלוח פיתוח אז זה מותקן לכם)
+
+## פתיחת קובץ
+בIDE פתחו את הדוגמה CameraWebServer 
+```
+- files → examples → ESP32 → Camera → CameraWebServer
+```
+ ותשימו בקובץ ino הראשי שנפתח את התוכנית בתיקיית ESPcam בקבצים כאן.
+
+
+## קונפיגורציה של המצלמה
+תשנו את החלקים הבאים לפי הפרוייקט שלכם: <br>
+כתובת מסד נתונים ואת הנקודת גישה(WiFi) **מומלץ לשים נקודה חמה**
+```
+#define DATABASE_URL "robotic-laser-tank-default-rtdb.firebaseio.com"
+...
+...
+const char *ssid = "oplus_co_apofwi";
+const char *password = "hkum7108";
+```
+אחרי זה צריבה
+
+## פיד המצלמה
+במסד הנתונים ייפתח branch של כתתובת IP של המצלמה העתיקו אותו לשורת החיפוש בדפדן שלכם במחשב <br> 
+**חשוב שהמחשב יהיה מחובר לאותו רשת כמו המצלמה**
+גוללים למטה ולוחצים על הכפתור של Start stream והפיד ייפתח למטה
+
+
+
 
 ## רישיון
 
