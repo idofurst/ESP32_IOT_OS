@@ -221,15 +221,21 @@ Core 1 (Application CPU):
 ## קונפיגורציה של המצלמה
 תשנו את החלקים הבאים לפי הפרוייקט שלכם: <br>
 כתובת מסד נתונים ואת הנקודת גישה(WiFi) **מומלץ לשים נקודה חמה**
-<a dir="ltr">
 ```
-#define DATABASE_URL "robotic-laser-tank-default-rtdb.firebaseio.com" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
+#define DATABASE_URL "robotic-laser-tank-default-rtdb.firebaseio.com"
 ...
 ...
 const char *ssid = "oplus_co_apofwi";
 const char *password = "hkum7108";
 ```
-</a>
+אחרי זה צריבה
+
+## פיד המצלמה
+במסד הנתונים ייפתח branch של כתתובת IP של המצלמה העתיקו אותו לשורת החיפוש בדפדן שלכם במחשב <br> 
+**חשוב שהמחשב יהיה מחובר לאותו רשת כמו המצלמה**
+גוללים למטה ולוחצים על הכפתור של Start stream והפיד ייפתח למטה
+
+
 
 
 ## רישיון
