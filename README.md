@@ -1,6 +1,6 @@
 
 <div dir="rtl">
-<a href="https://github.com/idofurst/ESP32_IOT_OS?tab=readme-ov-file#%D7%AA%D7%9B%D7%95%D7%A0%D7%95%D7%AA-%D7%A2%D7%99%D7%A7%D7%A8%D7%99%D7%95%D7%AA">Link text</a>
+<a href="https://github.com/idofurst/ESP32_IOT_OS/blob/main/README.md#%D7%97%D7%99%D7%91%D7%95%D7%A8-esp-cam-%D7%9Crealtime-database">חיבור ESP-cam</a>
 # ESP32 IoT OS
 
 **גשר IoT לחיבור ALTERA FPGA לענן Firebase**
