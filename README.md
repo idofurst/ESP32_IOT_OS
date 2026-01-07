@@ -210,10 +210,25 @@ Core 1 (Application CPU):
 את הספרייה Firebase-ESP32 על-ידי mobizt
 ואת הספרייה ArduinoJson על-ידי Benoit Blanchon (אם חיברתם את הלוח פיתוח אז זה מותקן לכם)
 
+## פתיחת קובץ
+בIDE פתחו את הדוגמה CameraWebServer 
+```
+- files → examples → ESP32 → Camera → CameraWebServer
+```
+ ותשימו בקובץ ino הראשי שנפתח את התוכנית בתיקיית ESPcam בקבצים כאן.
 
+
+## קונפיגורציה של המצלמה
+תשנו את החלקים הבאים לפי הפרוייקט שלכם:
+כתובת מסד נתונים ואת הנקודת גישה(WiFi) **מומלץ לשים נקודה חמה**
 ```
-   &#x202b;- files → examples → ESP32 → Camera → CameraWebServer
+#define DATABASE_URL "robotic-laser-tank-default-rtdb.firebaseio.com" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
+...
+...
+const char *ssid = "oplus_co_apofwi";
+const char *password = "hkum7108";
 ```
+
 
 ## רישיון
 
