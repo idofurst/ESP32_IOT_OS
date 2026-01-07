@@ -198,7 +198,7 @@ Core 1 (Application CPU):
 | קובץ | תיאור |
 |------|--------|
 | `ESP32_IoT_Bridge.ino` | קוד ה-ESP32 המלא |
-| `docs/index.html` | דף מידע מעוצב |
+| `docs/index.html` | דף מידע  |
 
 ---
 
